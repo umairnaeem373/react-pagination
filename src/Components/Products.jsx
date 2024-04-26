@@ -9,7 +9,7 @@ function Products({products}) {
     {
       products?.map(({image , title , price},i) =>{
         return(
-          <div className=' border w-[280px] rounded-md text-start' key={i}>
+          <div className=' border w-[250px] rounded-md text-start' key={i}>
                     <img className='h-[400px] p-2' src={image} alt="" />
                     <p className='truncate px-3'>{title}</p>
                     <h2 className='font-semibold  px-3'>${price}</h2>
